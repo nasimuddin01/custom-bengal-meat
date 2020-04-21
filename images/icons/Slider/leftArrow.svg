@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>@0.5xArrow Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M28,0 C43.463973,0 56,12.536027 56,28 C56,43.463973 43.463973,56 28,56 C12.536027,56 0,43.463973 0,28 C0,12.536027 12.536027,0 28,0 Z M28,2 C13.6405965,2 2,13.6405965 2,28 C2,42.3594035 13.6405965,54 28,54 C42.3594035,54 54,42.3594035 54,28 C54,13.6405965 42.3594035,2 28,2 Z" id="path-1"></path>
+        <rect id="path-3" x="0" y="0" width="56" height="56"></rect>
+        <filter x="-78.6%" y="-71.4%" width="257.1%" height="257.1%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.180479677 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="14" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0513275787 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-6" points="15.705 7.41 14.295 6 8.295 12 14.295 18 15.705 16.59 11.125 12"></polygon>
+    </defs>
+    <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage-UI" transform="translate(-136.000000, -334.000000)">
+            <g id="Arrow-Copy" transform="translate(136.000000, 334.000000)">
+                <g id="Element/Shape/circle/Outline/2px">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <g id="Element/Shape/Square/Fill" mask="url(#mask-2)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="BG_Shadow">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-3"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <rect id="Shape_element" fill="#E8E8E8" fill-rule="evenodd" mask="url(#mask-4)" x="0" y="0" width="56" height="56"></rect>
+                        <rect id="Normal" fill-opacity="0" fill="#000000" fill-rule="evenodd" mask="url(#mask-4)" x="0" y="0" width="56" height="56"></rect>
+                    </g>
+                </g>
+                <g id="Icon-/-Keyboard-Arrow---Left-/-Outlined" transform="translate(16.000000, 16.000000)">
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <g id="icon/navigation/chevron_left_24px" fill-rule="nonzero"></g>
+                    <g id="✱-/-Color-/-Icons-/-Selected-/-On-Surface-/-Inactive" mask="url(#mask-7)" fill="#000000" fill-opacity="0.54" fill-rule="evenodd">
+                        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
